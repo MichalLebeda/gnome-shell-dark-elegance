@@ -7,4 +7,3 @@ cat scss/overrides.scss >> build/gnome-shell/gnome-shell.scss
 sass build/gnome-shell/gnome-shell.scss dist/gnome-shell/gnome-shell.css
 #cp build/*.png dist/
 cp build/gnome-shell/*.svg dist/gnome-shell/
-cp index.theme dist/index.theme

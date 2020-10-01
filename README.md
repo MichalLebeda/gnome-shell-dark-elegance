@@ -24,17 +24,18 @@ and switch theme using Gnome Tweaks
 
 
 ## Previews
-### 1
+note those previews may be outdated.
+### Overview
 before:  
 ![before](before_0.jpg)
 after:  
 ![after](after_0.jpg)
-### 2
+### Search
 before:  
 ![before](before_1.jpg)
 after:  
 ![after](after_1.jpg)
-### 3
+### AppGrid & Dash
 before:  
 ![before](before_2.jpg)
 after:  

@@ -8,7 +8,7 @@ Creating an universal theme is very hard so it cannot always fit every environme
 that is the reason I made this tweaked version suitable for non completely black wallpapers.
 
 
-Best with Blyr extension.  
+Looks best with [Blyr](https://extensions.gnome.org/extension/1251/blyr/) extension.
 
 ## Build & Install
 ensure you have some ```sass``` implementation installed.  

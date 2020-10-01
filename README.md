@@ -20,5 +20,18 @@ and switch theme using Gnome Tweaks
 
 
 ## Previews
-![](preview_0.jpg)
-![](preview_1.jpg)
+### 1
+before:  
+![before](before_0.jpg)
+after:  
+![after](after_0.jpg)
+### 2
+before:  
+![before](before_1.jpg)
+after:  
+![after](after_1.jpg)
+### 3
+before:  
+![before](before_2.jpg)
+after:  
+![after](after_2.jpg)

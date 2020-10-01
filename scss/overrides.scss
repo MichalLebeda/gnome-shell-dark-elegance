@@ -383,3 +383,35 @@ $window_close_button_padding: 3px;
   font-weight: bold;
   @include fontsize($base_font_size + 1);
 }
+
+
+/* OSD */
+
+$osd_levelbar_height:8px;
+
+.osd-window {
+  @extend %osd_panel;
+  background-color: #000000; // custom
+  border: none; // custom
+  text-align: center;
+  font-weight: bold;
+  spacing: $base_spacing * 2; // 12px
+  margin: $base_margin * 8; // 32px
+  min-width: 64px;
+  min-height: 64px;
+
+  StIcon {
+    icon-size:$base_icon_size * 6;
+  }
+
+  .osd-monitor-label { font-size: 3em; }
+
+  .level {
+    height: $osd_levelbar_height;
+    -barlevel-height: $osd_levelbar_height;
+    -barlevel-background-color: transparentize($osd_fg_color, if($variant=='light', 0.7, 0.9));
+    -barlevel-active-background-color: $osd_fg_color;
+    -barlevel-overdrive-color: $destructive_color;
+    -barlevel-overdrive-separator-width: 3px;
+  }
+}

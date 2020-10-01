@@ -179,7 +179,7 @@ $search_entry_height: 36px;
 
   &:hover {
   background-color: transparentize(#909090,0.5); // custom
-    border-color: $hover_bg_color; // custom
+    border-color: transparent; // custom
     color: $hover_fg_color;
   }
 

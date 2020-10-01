@@ -12,6 +12,9 @@ Best with Blyr extension.
 
 ## Build & Install
 ensure you have some ```sass``` implementation installed.  
+
+Get submodules:  
+```git submodule update --init```  
 Then build:  
 ```./generate_theme.sh```  
 Optionally install (locally):  

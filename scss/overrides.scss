@@ -359,3 +359,27 @@ $app_icon_padding: 24px;
     border-radius: 32px; // custom
   }
 }
+
+/* Window Picker */
+
+$window_picker_spacing: $base_spacing * 2; // 16px
+$window_picker_padding: $base_padding * 2; // 16px
+
+$window_thumbnail_border_color:transparentize($selected_fg_color, 0.65);
+
+$window_close_button_size: 24px;
+$window_close_button_padding: 3px;
+
+
+/* Window picker */
+
+// Window titles
+.window-caption {
+  color: $osd_fg_color;
+  background-color: #111111; // custom
+  border: none; // custom
+  border-radius: 32px; // custom
+  padding: $base_padding $base_padding * 2;
+  font-weight: bold;
+  @include fontsize($base_font_size + 1);
+}

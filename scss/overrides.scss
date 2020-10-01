@@ -136,7 +136,7 @@
   border: none; // custom
   visible-width: 32px; //amount visible before hover
   spacing: $base_spacing;
-  padding: $base_padding;
+  padding: $base_padding + 3px; //custom
 
   border-radius: $modal_radius 0 0 $modal_radius;
   border-right-width: 0;

@@ -1,5 +1,6 @@
 # Adwaita Dark Elegance
-The darker version of default Gnome Shell theme
+The darker version of default Gnome Shell theme  
+![before](main.jpg)  
 
 This theme is based on [this repository](https://github.com/ryanlerch/gnome-shell-theme-base).
 

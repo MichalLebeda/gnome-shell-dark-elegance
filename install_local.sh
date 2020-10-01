@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -r ~/.themes/dark-theme
-cp -r dist ~/.themes/dark-theme
+rm -rf ~/.themes/adwaita-dark-elegance
+cp -r dist ~/.themes/adwaita-dark-elegance

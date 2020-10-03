@@ -173,23 +173,35 @@ $search_entry_height: 36px;
   width: $search_entry_width;
   padding: $base_padding+1 $base_padding+3;
   border-radius: $search_entry_height * 0.5; // half the height
-  color: transparentize($fg_color,0.3);
-  background-color: transparentize(#909090,0.7); // custom
-  border-color: transparent; // cusotm
+  color: #dddddd; // custom
+  background-color: transparentize(#fafafa,0.7); // custom
+  border-color: transparent; // custom
+
+  StLabel.hint-text { // custom
+    color: #dddddd;
+  }
 
   &:hover {
-  background-color: transparentize(#909090,0.5); // custom
-    border-color: transparent; // custom
-    color: $hover_fg_color;
+    background-color: transparentize(#fafafa,0.2); // custom
+    color: #212121; // custom
+    StLabel.hint-text {
+        color: #212121; // custom
+    }
   }
 
   &:focus {
     padding: $base_padding $base_padding+2; // 1px less to account for wider border
     border-color: transparent; // custom
-    //TODO: use another color
-    background-color: transparentize(#909090,0.7); // custom
-    color: $fg_color;
+    color: #212121; // custom
+    caret-color: #909090; // custom
+    background-color: transparentize(#fafafa,0.1); // custom
+    selection-background-color: transparentize(#000000,0.8); // custom
     box-shadow: none; // custom
+
+
+    StLabel.hint-text { // custom
+        color: #aaaaaa;
+    }
   }
 
   .search-entry-icon {
@@ -225,7 +237,7 @@ $search_entry_height: 36px;
 // content
 .search-section-content {
   //background-color: #000000; // custom
-  background-color: transparentize(#111111,0.5); // custom
+  background-color: transparentize(#000000,0.3); // custom
   border-radius: $modal_radius+3;
   border: none; // custom
   box-shadow: 0 2px 4px 0 $shadow_color;
